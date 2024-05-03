@@ -1,3 +1,10 @@
+.minus-btn,
+.plus-btn,
+.add-to-cart-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Adjust the spacing between buttons */
+}
 /* Style for the '-' button in inventory */
 .minus-btn {
     background-color: red;
@@ -85,13 +92,13 @@
   }
   
   .amount {
-    margin: 5px;
+    margin: 10px;
   }
   
   .checkout-btn {
     background-color: black;
     color: white;
-    margin-top: 200px;
+    bottom: 500px;
     width: 335px;
     height: 50px;
     border-radius: 5px;
