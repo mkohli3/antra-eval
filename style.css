@@ -1,0 +1,83 @@
+/* Style for the '-' button in inventory */
+.minus-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Style for the '+' button in inventory */
+  .plus-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Style for the "add to cart" button in inventory */
+  .add-to-cart-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Style for the "delete" button in the cart */
+  .delete-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Additional styles for the layout */
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .inventory-container,
+  .cart-container {
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .inventory-container h1,
+  .cart-container h1 {
+    text-align: center;
+  }
+  
+  .inventory-container ul,
+  .cart-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .inventory-container li,
+  .cart-container li {
+    margin-bottom: 10px;
+    background-color: lightyellow;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .inventory-container li button,
+  .cart-container li button {
+    margin-left: auto;
+  }
+  
+  .amount {
+    margin: 0 5px; /* Adjusted margin */
+  }
+  
+  .checkout-btn {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
